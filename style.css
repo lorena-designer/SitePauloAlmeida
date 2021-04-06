@@ -419,10 +419,11 @@ section{
 
 .contato-navbar{
     margin-left: 10rem;
-
-
     
+
 }
+.contato-icones{
+    margin-left: -19px;
 }
 
 .contato-icone1{
@@ -496,7 +497,16 @@ section{
 
 
 @media (max-width: 991px) {
+ .inicio{
+    display: flex;
+    height: 100vh;
+    color: #fbfbfb;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url("img/background.jpg") no-repeat center;
 
+}
 .menu-btn{
     color: white;
     font-size: 23px;
@@ -506,7 +516,6 @@ section{
 }
 i.active:before {
     content: "\f00d";
-
 }
 
 .logo img{
@@ -522,19 +531,18 @@ i.active:before {
 
 .PAULO{
     margin-right: 90%;
-    margin-left: 50px;
+    margin-left: 40px;
     letter-spacing: 1px;
 }
 
 .inicio-texto2{ /*Paulo config*/
     font-size: 60px;
-    margin-left: -150px;
-    margin-top: -70px;
-    
+    margin-left: -320px;
+    margin-top: -60px;   
 }
 
 .almeida {
-    margin-left: -160px;
+    margin-left: -320px;
     margin-right: 280px;
     padding: 20px;
     letter-spacing: 1px;
@@ -550,7 +558,7 @@ i.active:before {
     margin-top: 6px;
     width: 33.5rem;
     margin-right: 86%;
-    margin-left: -41rem; 
+    margin-left: -51rem; 
     border-radius: 100rem;
 }
 
@@ -558,8 +566,8 @@ i.active:before {
 .texto {
     margin-top: 55px;
     padding: 28px;
-    width: 230px;
-    margin-left: -250px;
+    width: 330px;
+    margin-left: -400px;
     position: absolute;
 }
 
@@ -570,26 +578,26 @@ i.active:before {
 
 .icones {
     margin-top: -34px;
-    margin-left: -360px;
+    margin-left: -560px;
 }
 .icone1 img {
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
 }
 
 .icone2 img {
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
 }
 
 .icone3 img {
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
 }
 
 .icone4 img {
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
 }
 
 
@@ -622,6 +630,7 @@ i.active:before {
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
+    background: url("img/background2.jpg") no-repeat center;
 
 }
     .menu-btn{
@@ -664,6 +673,94 @@ i.active:before {
     border: 2px solid #BB2020!important;
  
 }
+
+.container {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+
+.PAULO{
+    margin-right: 90%;
+    margin-left: 60px;
+    letter-spacing: 1px;
+}
+
+.inicio-texto2{ /*Paulo config*/
+    font-size: 60px;
+    margin-left: -220px;
+    margin-top: -60px;   
+}
+
+.almeida {
+    margin-left: -220px;
+    margin-right: 280px;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.inicio-texto1{ /*almeida config*/
+    font-size: 60px;
+    margin-top: -25px; 
+}
+
+
+.linha {
+    margin-top: 6px;
+    width: 36rem;
+    margin-right: 87%;
+    margin-left: -47rem; 
+    border-radius: 100rem;
+}
+
+
+.texto {
+    margin-top: 55px;
+    padding: 28px;
+    width: 330px;
+    margin-left: -300px;
+    position: absolute;
+}
+
+.inicio-texto3{
+    font-size: 14px;
+    margin: -10px;
+}
+
+.icones {
+    margin-top: -34px;
+    margin-left: -380px;
+}
+.icone1 img {
+    width: 32px;
+    height: 32px;
+}
+
+.icone2 img {
+    width: 32px;
+    height: 32px;
+}
+
+.icone3 img {
+    width: 32px;
+    height: 32px;
+}
+
+.icone4 img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.espaço{
+    margin: -1px;
+    color: black;
+}
+
+.grid-start{
+    display: block;
+}
+
 
 /*''''''''''''''''''''''''''''''''   SOBRE   '''''''''''''''''''''''''''''''''''''*/
 /*''''''''''''''''''''''''''''''''   SOBRE   '''''''''''''''''''''''''''''''''''''*/
@@ -751,7 +848,7 @@ i.active:before {
 
 .contato-icone1{
     margin-right: 20px;
-    margin-left: -28px;
+    margin-left: -18px;
 }
 
 .contato-icone2{
@@ -903,15 +1000,12 @@ i.active:before {
     margin-left: 25px;
 }
 
-
-
-
-
-
-
 }
 
 
 
 @media (max-width: 500px) {
+
+
+
     }
